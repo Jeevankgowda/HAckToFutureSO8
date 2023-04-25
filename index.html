@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FEED INDIA | FEEDINDIA.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo4.png" alt="FEEDINDIA.com">
+        </div>
+        <ul>
+            <li class="item" ><a  href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Objectives</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+            <li class="item"><a href="#">Login/Register</a>
+                <ul class="dropdown">
+                    <li><a href="rlogin.html">DONOR</a></li>
+                    <li><a href="nlogin.html">NGO</a></li>
+                
+                
+                
+                </ul>
+            
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to FEEDINDIA</h1>
+        <p>"Food Waste will never be able to address hunger because hunger isnt about a lack of food
+            Its about a lack of income,people are food insecure because they cant afford to eat."
+        </p>
+
+        <button class="btn" onclick="myFunction()">Donate Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Objectives</h1>
+        <div id="services">
+            <div class="box">
+           <img src="img/hunger.png" alt="">
+                <h2 class="h-secondary center">Fight Food Crisis</h2>
+                <p class="para">India has been facing food-related challenges for several decades, including a high prevalence
+                     of malnutrition, hunger, and food insecurity. Despite being one of the world's largest food producers, India
+                      still struggles to provide adequate nutrition to its population, especially in rural areas.It has been estimated
+                       that between 2019 and 21, around 56 crore Indians, or 40.6 per cent of the total population, had moderate or severe food insecurity.</p>
+            </div>
+            <div class="box">
+                <img src="img/foodw.png" alt="">
+                <h2 class="h-secondary center">Prevent Food Wastage</h2>
+                <p class="para">Food wastage is a major global issue that affects both developed and developing countries.
+                    One-third of all food produced in the world is lost or wasted, which amounts to approximately 1.3 billion tons of food per year.
+                    Food wastage has numerous negative impacts, including economic, social, and environmental consequences.In addition to these environmental impacts,
+                    food wastage also has social implications, as it deprives people of access to food, exacerbates food insecurity, and contributes to the perpetuation of poverty.
+                    
+                    </p>
+            </div>
+            <div class="box">
+                <img src="img/foodm.png" alt="">
+                <h2 class="h-secondary center">Modernize Food Management</h2>
+                <p class="para">Distributing food to NGOs is a common strategy used in food waste management.
+                    NGOs, or non-governmental organizations, often work with vulnerable and marginalized communities, such as low-income families,
+                    the homeless, and those experiencing food insecurity. By donating food to these organizations, we can ensure that it is put to good 
+                    use and provides much-needed nutrition to those who need it most.Finally, it can also provide economic benefits, as NGOs often work with local communities and support small businesses.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/ngoA.jpg" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/ngoB.png" alt="Our Client">
+            </div>
+          
+            <div class="client-item">
+                <img src="img/ngoD.jpg" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/ngoC.jpg" alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" value="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button class="btnsm">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy;! Thinker.. All rights reserved!
+        </div>
+    </footer>
+    <script>
+        function myFunction(){
+            window.location.href="rlogin.html";
+        }
+    </script>
+</body>
+
+</html>
