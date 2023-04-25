@@ -1,16 +1,16 @@
 # HAckToFutureSO8
-This is a website In which Restaurants update about the leftover food .It helps the NGOS to find food and provide the food to people in need.
+This is a website in which restaurants update about the leftover food .It helps the NGOS to find food and provide the food to people in need.
 #Title
-Food waste Management
+Food Waste Management
 
 ## Porblem Statement 
-we focusing on the two major prolems of india and try to minimize 
-1.A lot of people in India end up their day without even  one time meal.Scarcity of food became one of the major problem in India
-2.Approximately 40% of leftover food is wasting  in India.Most of them come from household and restaurant 
+ We  are focusing on the two major prolems of india and try to minimize 
+1.Food Crisis:   A lot of people in India end up their day without even  one time meal.Scarcity of food became one of the major problem in India
+2.Food wastage:  Approximately 40% of leftover food is wasting  in India.Most of them come from household and restaurant 
 
 ##  Tech Stack 
-Front End : HTML, CSS, Javascript
-Back End : PHP, mysql
+Front End :  HTML, CSS, Javascript
+Back End :  PHP, mysql
 
 # Steps to run Project 
 
@@ -35,7 +35,7 @@ To run this project we need php version 7
 
 
 7. now start project with this link (http://localhost/FoodIndia/)  
-8.you can login as ngo or restaurent and do register 
+8.you can login as ngo or restaurent and do register.
 
 
 
