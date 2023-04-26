@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donate</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <body>
+        
+        <section id="home">
+            <h1 class="h-primary" style="font-size: 40px;color: black;">FEEDINDIA</h1>
+					
+					<h2><B style="color: black;font-size: 20px;">
+						The food you waste could ends Someones hunger! Stop Wasting  ! Start Sharing</h2></B>
+					<p>
+						At the end of the day it’s not about what you have or even what you’ve accomplished… it’s about who you’ve lifted up, who you’ve made better. It’s about what you’ve given back.Hunger is not a problem. It is an obscenity. 
+                        'How wonderful it is that nobody need wait a single moment before starting to improve the world. – Anne Frank'
+					</p>
+    
+            <button class="btn" onclick="myFunction()">Donate Now</button>
+        </section>
+        <div class="container"></div>
+
+     <img src="logo4.png" id="menuIcon">
+
+     <div class="menu-box" id="menuBox">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="nrequest.php">NEW REQUESTS</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+            <li><a href="status.php">STATUS</a></li>
+            <li><a href="login.html">LOG OUT</a></li>
+            
+        </ul>
+     </div>
+     <script>
+        let menuBox=document.getElementById("menuBox");
+        let menuIcon=document.getElementById("menuIcon");
+
+        menuIcon.onclick=function(){
+            menuBox.classList.toggle("open-menu"); 
+        }
+            </script>
+    <script>
+        function myFunction(){
+            window.location.href="donation.html";
+        } 
+        
+    </script>
+    
+    
+</body>
+</html>
